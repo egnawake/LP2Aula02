@@ -32,5 +32,10 @@ namespace ClassVsStruct
         {
             Console.WriteLine($"Health: {p.Health} | Armor: {p.Armor}");
         }
+
+        private static void DoubleHealth(Player p)
+        {
+            p.Health = p.Health * 2;
+        }
     }
 }
