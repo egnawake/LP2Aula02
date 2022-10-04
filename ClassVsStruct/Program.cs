@@ -17,7 +17,7 @@ namespace ClassVsStruct
             ShowPlayer(p2);
             Console.WriteLine("");
 
-            p1.Health = 60;
+            DoubleHealth(p1);
             Console.WriteLine("Changed P1 health");
             Console.WriteLine("");
 
