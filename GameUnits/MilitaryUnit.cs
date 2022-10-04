@@ -7,6 +7,8 @@ namespace GameUnits
         public int AttackPower { get; }
         public int XP { get; set; }
 
+        public override int Health => base.Health + XP;
+
         public MilitaryUnit(int movement, int health, int attackPower)
             : base(movement, health)
         {
