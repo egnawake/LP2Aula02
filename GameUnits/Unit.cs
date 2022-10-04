@@ -2,7 +2,7 @@ using System;
 
 namespace GameUnits
 {
-    public class Unit
+    public abstract class Unit
     {
         private int movement;
 
