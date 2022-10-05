@@ -12,10 +12,8 @@ namespace GameUnits
             warrior.Move(new Vector2 { X = 4, Y = 2 });
             settler.Move(new Vector2 { X = 0, Y = 2 });
 
-            Console.WriteLine(
-                $"Warrior | Health: {warrior.Health} | Value: {warrior.Value}");
-            Console.WriteLine(
-                $"Settler | Health: {settler.Health} | Value: {settler.Value}");
+            Console.WriteLine(warrior);
+            Console.WriteLine(settler);
         }
     }
 }
