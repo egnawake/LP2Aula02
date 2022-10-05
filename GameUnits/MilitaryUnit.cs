@@ -21,6 +21,11 @@ namespace GameUnits
         {
             Console.WriteLine($"Unit dealt {AttackPower} damage");
         }
+
+        public override string ToString()
+        {
+            return base.ToString() + $" | Power: {AttackPower} | XP: {XP}";
+        }
     }
 }
 
