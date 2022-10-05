@@ -19,6 +19,11 @@ namespace GameUnits
         {
             Console.WriteLine($"Moved {movement} units");
         }
+
+        public override string ToString()
+        {
+            return $"Health: {Health} | Value: {Value}";
+        }
     }
 }
 
